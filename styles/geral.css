@@ -1,0 +1,40 @@
+:root{
+    --azul:#4792b3;
+    --verde: #6d8a62;
+    --rosa:#F7B6D2;
+    --laranja:#F4A623;
+    --preto:#000000;
+    --branco:#FFFFFF;
+    --cinza:#666666;
+}
+
+
+header, footer{
+    background-color: var(--azul);
+}
+
+.card, .card img{
+    border-radius:0%!important;
+}
+.card{
+    padding: 1rem;
+    border: var(--cinza) 2px solid;
+}
+.card button{
+    background-color: var(--rosa);
+    border-style: none;
+    color: var(--preto);
+    border-radius: 0%;
+}
+.card button:hover{
+    background-color: #c23a75;
+    color:var(--branco);
+}
+.card button:active{
+    background-color: #F4A623!important;
+    color:var(--branco)!important;
+}
+
+.btn btn-primary{
+    background-color: #F7B6D2;
+}
