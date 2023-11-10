@@ -1,7 +1,7 @@
 :root{
     --azul:#4792b3;
     --verde: #6d8a62;
-    --rosa:#F7B6D2;
+    --rosa:#f389b7;
     --laranja:#F4A623;
     --preto:#000000;
     --branco:#FFFFFF;
@@ -37,4 +37,53 @@ header, footer{
 
 .btn btn-primary{
     background-color: #F7B6D2;
+}
+
+#form{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+
+
+#formulario{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+#imgForm{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/imgBanner.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#notificacao{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+#botao{
+    padding: 10px;
+    margin: 10px;
+   /* display: flex;
+    justify-content: center!important;
+    text-align: center!important;*/
+    
+
+}
+
+label{
+    padding: 10px;
 }
