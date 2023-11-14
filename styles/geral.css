@@ -49,6 +49,10 @@ header, footer{
     gap:20px;
 }
 
+form input{
+    border: 1px solid black!important;
+}
+
 
 #formulario{
     width: 50%;
@@ -57,8 +61,7 @@ header, footer{
     text-align: left;
 }
 
-#imgForm{
-    width: 50%;
+#formularioBanner{
     padding: 0;
     margin: 0;
     background-image: url(../images/imgBanner.png);
@@ -86,4 +89,8 @@ header, footer{
 
 label{
     padding: 10px;
+}
+/*@media é pra RESPONSIVIDADE*/
+@media screen and (max-width: 768px){
+    
 }
